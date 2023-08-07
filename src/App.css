@@ -113,8 +113,16 @@ body {
 
   .previewWrap,
   .editorWrap {
-    max-width: 100%;
+    max-width: 90%;
   }
+
+    .editorWrap.maximized,
+    .previewWrap.maximized {
+      flex-basis: 100%;
+      max-width: 90%;
+      min-height: 90vh;
+      margin: auto;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -124,8 +132,16 @@ body {
 
   .editorWrap,
   .previewWrap {
-    width: 100%;
+    width: 90%;
   }
+
+    .editorWrap.maximized,
+    .previewWrap.maximized {
+      flex-basis: 100%;
+      max-width: 90%;
+      min-height: 90vh;
+      margin: auto;
+    }
 }
 
 #preview blockquote {
