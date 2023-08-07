@@ -50,24 +50,13 @@ And if you want to get really crazy, even tables:
 
 export const App = () => {
   const [isLoading, setIsLoading] = useState(false); 
-  const [isError, setIsError] = useState(false);
-  const [errorMessage, setErrorMessage] = useState('');
   const [input, setInput] = useState(INITIAL); 
   const [isEditorMaximized, setIsEditorMaximized] = useState(false);
   const [isPreviewMaximized, setIsPreviewMaximized] = useState(false);
 
   useEffect(() => {
     setIsLoading(false);
-  }, []); 
-
-  useEffect(() => {
-    if (!input) {
-      setIsError(true);
-      setErrorMessage('Oops... Something went wrong...');
-    } else {
-      setIsError(false);
-    }
-  }, [input]);
+  }, []);   
 
   const handleChange = (event) => {
     setInput(event.target.value);
@@ -89,15 +78,7 @@ export const App = () => {
 
   return (
     <>
-      {isLoading && <Loader />}
-
-      {isError && (
-        <p className="error-message">
-          {errorMessage}
-        </p>
-      )}
-
-      {!isLoading && !isError && (
+      {isLoading ? <Loader /> : (
         <div
           className="App"
           id="app"
