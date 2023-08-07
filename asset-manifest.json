@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/markdown-editor/static/css/main.ca645874.css",
-    "main.js": "/markdown-editor/static/js/main.39905e12.js",
-    "static/js/787.50388383.chunk.js": "/markdown-editor/static/js/787.50388383.chunk.js",
-    "index.html": "/markdown-editor/index.html",
-    "main.ca645874.css.map": "/markdown-editor/static/css/main.ca645874.css.map",
-    "main.39905e12.js.map": "/markdown-editor/static/js/main.39905e12.js.map",
-    "787.50388383.chunk.js.map": "/markdown-editor/static/js/787.50388383.chunk.js.map"
+    "main.css": "/markdown-converter/static/css/main.ca645874.css",
+    "main.js": "/markdown-converter/static/js/main.929cd533.js",
+    "static/js/787.50388383.chunk.js": "/markdown-converter/static/js/787.50388383.chunk.js",
+    "index.html": "/markdown-converter/index.html",
+    "main.ca645874.css.map": "/markdown-converter/static/css/main.ca645874.css.map",
+    "main.929cd533.js.map": "/markdown-converter/static/js/main.929cd533.js.map",
+    "787.50388383.chunk.js.map": "/markdown-converter/static/js/787.50388383.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca645874.css",
-    "static/js/main.39905e12.js"
+    "static/js/main.929cd533.js"
   ]
 }
