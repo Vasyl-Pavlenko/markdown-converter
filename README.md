@@ -1,6 +1,4 @@
-# Simple markdown converter
-
-[DEMO LINK](https://vasyl-pavlenko.github.io/markdown-converter/)
+# Simple markdown converter [DEMO LINK](https://vasyl-pavlenko.github.io/markdown-converter/)
 
 ## User Story 1: I can see a textarea element with a corresponding id="editor".
 
